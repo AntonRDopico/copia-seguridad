@@ -1,4 +1,5 @@
-copia-seguridad
+
+# copia-seguridad
 Script que hace una copia de seguridad de una carpeta.
 Uso: ./copia.sh <carpeta>
 Opción --lista: muestra las copias que hay
