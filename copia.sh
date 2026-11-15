@@ -18,3 +18,4 @@ tar -czf "$FICHERO" -C "$1" .
 echo "Copia creada: $FICHERO"
 ls -lh "$FICHERO"
 sha256sum "$FICHERO"
+[ -z "$COPIAS_DIAS" ] || find "$COPIA_DESTIONO" -name "copia-*" -mtime +"$COPIA_DIAS" -delete
