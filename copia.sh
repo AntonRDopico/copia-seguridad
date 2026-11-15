@@ -7,6 +7,11 @@ if [ "$1" = "--lista" ]; then
   exit 0
 fi
 
+if [ "$1" = "--ayuda" ]; then
+echo "Uso: ./copia.sh <carpeta> | --lista | --ayuda"
+exit 0
+fi
+
 if [ ! -d "$1" ]; then
   echo "Error: no existe la carpeta $1" >&2
   exit 1
