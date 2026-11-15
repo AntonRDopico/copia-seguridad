@@ -7,3 +7,4 @@ Variable COPIA_DESTINO: carpeta de las copias
 Requisitos: bash, tar y coreutils
 Cada copia: copia-AAAAMMDD-HHMMSS.tar.gz
 Requisitos comprobados: bash, tar y coreutils.
+El script necesita permisos de lectura sobre la carpeta de origen.
